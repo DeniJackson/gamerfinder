@@ -1,0 +1,318 @@
+<html>
+
+<head>
+    <title>Find you perfect gaming buddy!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+</head>
+
+
+<body>
+
+    <div class="jumbotron bg-dark text-light text-center">
+        <h1>Gamer Finder</h1>
+        <h2>Find the perfect gaming buddy</h2>
+        <a href="index.html">
+            <button class="btn-lg btn-light text-dark m-5">Home</button>
+        </a>
+
+    </div>
+    <div class="container bg-dark text-light p-4">
+        <form>
+            <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control m-5" name="name" id="name" placeholder="What's your name?    ">
+                <p>Level of play (1 being casual, 5 being hardcore</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="level" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="level" id="2" value="2">
+                    <label c1lass="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="level" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="level" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="level" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+
+                <p>Time spent playing (1 being less than 1 hours, 5 being over 8)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="time" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="time" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="time" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="time" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="time" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+                <p>Snacks needed? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="snacks" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="snacks" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="snacks" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="snacks" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="snacks" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+                <p>Caffiene needed? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="caffiene" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="caffiene" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="caffiene" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="caffiene" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="caffiene" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+                <p>Alcogol needed? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="alcohol" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="alcohol" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="alcohol" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="alcohol" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="alcohol" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+                
+                <p>Genre: FPS (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fps" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fps" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fps" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fps" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fps" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+
+                <p>Genre: RPG? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rpg" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rpg" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rpg" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rpg" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="rpg" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+                <p>Genre:Racing? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="racing" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="racing" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="racing" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="racing" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="racing" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+                <p>Genre: Action? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="action" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="action" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="action" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="action" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="action" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+
+                <p>Genre:Fighting? (1 being never, 5 beinng always)</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fighting" id="1" value="1">
+                    <label class="form-check-label" for="1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fighting" id="2" value="2">
+                    <label class="form-check-label" for="2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fighting" id="3" value="3">
+                    <label class="form-check-label" for="3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fighting" id="4" value="4">
+                    <label class="form-check-label" for="4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="fighting" id="5" value="5">
+                    <label class="form-check-label" for="5">5</label>
+                </div>
+
+                <div class="m-3">
+                        <button type="submit" class="btn btn-primary submit">Submit</button>
+                </div>
+                
+
+        </form>
+        </div>
+
+</body>
+<script type="text/javascript">
+
+ 
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Here we grab the form elements
+      var newFriend = {
+      Name :$("#name").val().trim(),
+      level: $('input[name=level]:checked').val(),
+      time: $('input[name=time]:checked').val(),
+      snacks: $('input[name=snacks]:checked').val(),
+      caffiene: $('input[name=caffiene]:checked').val(),
+      alcohol: $('input[name=alcohol]:checked').val(),
+      fps: $('input[name=fps]:checked').val(),
+      rpg: $('input[name=rpg]:checked').val(),
+      racing: $('input[name=racing]:checked').val(),
+      action: $('input[name=action]:checked').val(),
+      fighting: $('input[name=fighting]:checked').val()
+      };
+
+
+      $.post("/api/friendList", newFriend,
+        function(data) {
+
+          if (data) {
+                console.log('Success!')
+            
+          }
+
+         
+          else {
+            console.log('Something went wrong.')
+          }
+
+        });
+
+    });
+
+</script>
+
+</html>
